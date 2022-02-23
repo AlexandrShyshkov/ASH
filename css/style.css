@@ -19,6 +19,7 @@ section {
 .container {
     max-width: 1320px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .wrapper {
@@ -1083,6 +1084,10 @@ section {
     }
     .category__btn {
         font-size: 16px;
+    }
+     .footer__body._init .footer__title::after,
+    .footer__body._init .footer__title::before {
+        top: 13px;
     }
 }
 
