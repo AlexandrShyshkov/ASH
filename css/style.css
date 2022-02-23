@@ -890,7 +890,7 @@ section {
     height: 1px;
     background-color: var(--primary-color);
     position: absolute;
-    right: -26px;
+    right: 0;
     top: 20px;
     transition: transform .3s linear;
 }
@@ -912,6 +912,7 @@ section {
     font-size: 30px;
     background: none;
     margin-bottom: 60px;
+    padding-right: 25px;
 }
 
 .footer__menu {
