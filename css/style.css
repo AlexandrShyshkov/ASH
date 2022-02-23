@@ -19,7 +19,6 @@ section {
 .container {
     max-width: 1320px;
     margin: 0 auto;
-    padding: 10px;
 }
 
 .wrapper {
@@ -1093,6 +1092,9 @@ section {
 }
 
 @media (min-width:1024px) {
+    .container {
+    padding: 10px;
+}
     .header__link::after,
     .footer__link::after {
         position: absolute;
