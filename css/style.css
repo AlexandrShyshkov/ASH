@@ -976,6 +976,9 @@ section {
 }
 
 @media (max-width:1024px) {
+    .container {
+        padding: 10px;
+    }
     .burger {
         display: block;
     }
@@ -1092,9 +1095,6 @@ section {
 }
 
 @media (min-width:1024px) {
-    .container {
-    padding: 10px;
-}
     .header__link::after,
     .footer__link::after {
         position: absolute;
