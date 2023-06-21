@@ -83,7 +83,7 @@ function initializeClock(id, endtime) {
     updateClock();
     var timeinterval = setInterval(updateClock, 1000);
 }
-var deadline = '2022-08-01';
+var deadline = '2024-08-01';
 // var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
 initializeClock('countdown', deadline);
 initializeClock('countdown-2', deadline);
